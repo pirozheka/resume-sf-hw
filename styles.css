@@ -88,3 +88,25 @@ h2 {
     font-style: italic;
     font-weight: 300;
 }
+
+.accordeon-item_hidden {
+    display: none;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 20px;
+  }
+  
+  .accordeon-item.active .accordeon-item_hidden {
+    display: block;
+  }
+  
+  .accordeon-item_caption {
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
