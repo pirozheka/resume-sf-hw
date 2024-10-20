@@ -91,23 +91,23 @@ h2 {
 .accordeon-item_hidden {
     display: none;
     font-size: 12px;
-    margin-top:10px;
+    margin-top: 10px;
     padding-left: 20px;
-  }
-  
-  .accordeon-item.active .accordeon-item_hidden {
+}
+
+.accordeon-item.active .accordeon-item_hidden {
     display: block;
-  }
+}
 
-  .accordeon-item:hover {
+.accordeon-item:hover {
     opacity: 0.8;
-  }
+}
 
-  .accordeon-item p {
+.accordeon-item p {
     margin-top: 15px;
-  }
-  
-  .accordeon-item_caption {
+}
+
+.accordeon-item_caption {
     font-weight: 700;
     cursor: pointer;
     padding: 10px;
@@ -116,33 +116,33 @@ h2 {
     border-radius: 5px;
     margin-top: 10px;
     font-size: 14px;
-  }
+}
 
-  .main-skills-gallery {
+.main-skills-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     gap: 10px;
     margin-top: 20px;
-  }
-  
-  .gallery-item {
+}
+
+.gallery-item {
     width: 80px;
     height: 80px;
     overflow: hidden;
     border: 1px dashed var(--accent);
     padding: 10px;
     border-radius: 10px;
-  }
+}
 
-  .gallery-item img {
+.gallery-item img {
     width: 100%;
-  }
+}
 
 .soft-skills-list {
     font-size: 14px;
     margin-top: 15px;
-    list-style-type:square;
+    list-style-type: square;
     margin-bottom: 40px;
 }
 
@@ -220,6 +220,4 @@ h2 {
     .soft-skills {
         margin-top: 70px;
     }
-
-    
 }
